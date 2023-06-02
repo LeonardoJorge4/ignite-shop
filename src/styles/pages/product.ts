@@ -8,6 +8,16 @@ export const ProductContainer = styled('main', {
 
   maxWidth: 1180,
   margin: '0 auto',
+
+  '@media (max-width: 756px)': {
+    padding: '1rem',
+    gap: '1rem',
+    gridTemplateColumns: '1fr',
+
+    button: {
+      margin: '1rem 0',
+    },
+  },
 });
 
 export const ImageContainer = styled('div', {
@@ -24,6 +34,10 @@ export const ImageContainer = styled('div', {
 
   img: {
     objectFit: 'cover',
+  },
+
+  '@media (max-width: 756px)': {
+    width: 'auto',
   },
 });
 

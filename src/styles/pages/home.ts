@@ -6,6 +6,13 @@ export const HomeContainer = styled('main', {
   maxWidth: 'calc(100vw - ((100vw - 1180px) / 2))',
   marginLeft: 'auto',
   minHeight: 656,
+
+  '@media (max-width: 756px)': {
+    flexDirection: 'column',
+    gap: '1rem',
+    padding: '1rem',
+    width: '-webkit-fill-available',
+  },
 });
 
 export const Product = styled('div', {
@@ -58,6 +65,13 @@ export const Product = styled('div', {
   },
 
   '&:hover': {
+    footer: {
+      transform: 'translateY(0%)',
+      opacity: 1,
+    },
+  },
+
+  '@media (max-width: 756px)': {
     footer: {
       transform: 'translateY(0%)',
       opacity: 1,

@@ -40,7 +40,7 @@ export default function Success({ customerName, product }: SuccessProps) {
 
         <p>
           Uhuul <strong>{customerName}</strong> , sua{' '}
-          <strong>{product.name}</strong>
+          <strong>{product.name}</strong>{' '}
           já está a caminho da sua casa.
         </p>
 

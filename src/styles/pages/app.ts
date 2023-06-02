@@ -13,4 +13,9 @@ export const Header = styled('header', {
   width: '100%',
   maxWidth: 1180,
   margin: '0 auto',
+
+  '@media (max-width: 756px)': {
+    marginLeft: '1rem',
+    width: 'auto',
+  },
 });
