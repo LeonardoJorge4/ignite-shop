@@ -9,7 +9,7 @@
 ## 📷 Preview do projeto
 
 <div align="center">
-  <img width="855" alt="Ignite Shop" src="https://github.com/LeonardoJorge4/dt-money-web/assets/69438854/3124407b-e12f-4967-9fd7-746c34c1ed2b" />
+  <img width="855" alt="Ignite Shop" src="https://github.com/LeonardoJorge4/ignite-shop/assets/69438854/c602062c-5890-40ab-afe9-a975d61b043a" />
 </div>
 
 ## 🕵️ Sobre
